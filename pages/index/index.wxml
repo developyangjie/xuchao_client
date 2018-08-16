@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <image class="top" src="https://img.qhooplay.com/ShenMo/top.png">
+    </image>
+  </view>
+
+  <view class="userinfo">
+    <block>
+      <image  class="userinfo-avatar" src="https://img.qhooplay.com/ShenMo/head.png" mode="cover" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo"></image>
+    </block>
+  </view>
+  <view class="integral">
+     <view class="jf">33</view>
+     <view class="signIn">签到</view>
+     
+  </view>
+  <view class="main">
+     <image class="banner1" src="https://img.qhooplay.com/ShenMo/banner1.png"></image>
+     <image class="banner2" src="https://img.qhooplay.com/ShenMo/banner2.png"></image>
+     <image class="banner3" src="https://img.qhooplay.com/ShenMo/banner3.png"></image>
+     <image class="banner4" src="https://img.qhooplay.com/ShenMo/banner4.png"></image>
+     <image class="banner5" src="https://img.qhooplay.com/ShenMo/banner5.png"></image>
+     <image class="logo" src="https://img.qhooplay.com/ShenMo/LOGO.png"></image>
+  </view>
+</view>

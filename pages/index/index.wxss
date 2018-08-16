@@ -1,0 +1,102 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  top:150rpx;
+}
+
+.userinfo-avatar {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  border:10rpx solid #ffcb2b;
+}
+
+.usermotto {
+  margin-top: 200rpx;
+}
+.top{
+    width:750rpx;
+    height:355rpx;
+}
+.main{
+  width:750rpx;
+  height:1307rpx;
+  background:#ffcb2b;
+  position:relative;
+}
+.banner1{
+  width:750rpx;
+  height:610rpx;
+  position:absolute;
+  top:0rpx;
+  left:0rpx;
+}
+.banner2{
+  width:750rpx;
+  height:671rpx;
+  position:absolute;
+  left:0rpx;
+  top:49rpx;
+}
+.banner3{
+  width:750rpx;
+  height:994rpx;
+  position:absolute;
+  left:0rpx;
+  top:311rpx;
+}
+.banner4{
+  width:750rpx;
+  height:762rpx;
+  position:absolute;
+  left:0rpx;
+  top:545rpx;
+}
+.banner5{
+  width:750rpx;
+  height:281rpx;
+  position:absolute;
+  left:0rpx;
+  top:963rpx;
+}
+.logo{
+  width:464rpx;
+  height:48rpx;
+  position:absolute;
+  left:50%;
+  margin-left:-232rpx;
+  bottom:20rpx;
+}
+.integral{
+  width:750rpx;
+  height:200rpx;
+}
+.jf{
+  float:left;
+  width:160rpx;
+  height:144rpx;
+  margin-top:40rpx;
+  margin-left:30rpx;
+  background:url(https://img.qhooplay.com/ShenMo/jf.png) no-repeat;
+  background-size:100%;
+  line-height:200rpx;
+  font-weight:bold;
+  font-size:50rpx;
+  text-align:center;
+  padding-left:26rpx;
+}
+.signIn{
+  float:right;
+  width:200rpx;
+  height:134rpx;
+  text-align:center;
+  line-height:134rpx;
+  background:#ffcb2b;
+  color:#fff;
+  border-radius:10rpx;
+  margin-top:40rpx;
+  margin-right:20rpx;
+}
