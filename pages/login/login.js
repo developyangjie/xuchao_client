@@ -10,7 +10,7 @@ Page({
   onShow:function(){
      var userInfo = wx.getStorageSync('userInfo');
      if(userInfo){
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/index/index'
         })
      }
@@ -24,7 +24,7 @@ Page({
                         wx.setStorageSync('userInfo', res.userInfo);
 
                         //授权成功后，跳转进入小程序首页
-                        wx.navigateTo({
+                        wx.redirectTo({
                           url: '/pages/index/index'
                         })
                       },
