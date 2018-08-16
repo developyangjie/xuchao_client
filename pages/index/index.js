@@ -6,27 +6,20 @@ Page({
   data: {
     motto: 'Hello World',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    userInfo: {},
+    userInfo: null,
+    uid:null
   },
   
   onLoad: function () {
- 
-    //缓存取出userinfo并且设置页面的值
-    var userInfo = wx.getStorageSync('userInfo')
-    this.setData({
-      userInfo: userInfo
-    })
-    var open_id = wx.getStorageSync('open_id')
-  
-  console.log(333)
-   
   },
- 
 
-
-  //点击事件
-  bindGetUserInfo:function(e){
-    console.log(22)
+  onShow:function(){
+      var openId = app.globalData.openId;
+      var userInfo = app.globalData.userInfo;
+      this.setData({
+          openId:openId,
+          userInfo:userInfo
+      })
   }
   
 

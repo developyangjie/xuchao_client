@@ -7,7 +7,8 @@
 
   <view class="userinfo">
     <block>
-      <image  class="userinfo-avatar" src="https://img.qhooplay.com/ShenMo/head.png" mode="cover" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo"></image>
+      <image  wx:if="{{!userInfo}}" class="userinfo-avatar" src="https://img.qhooplay.com/ShenMo/head.png" mode="cover"></image>
+      <image  wx:else class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
     </block>
   </view>
   <view class="integral">
