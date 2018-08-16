@@ -7,6 +7,14 @@ Page({
   onLoad: function () {
    
   },
+  onShow:function(){
+     var userInfo = wx.getStorageSync('userInfo');
+     if(userInfo){
+        wx.navigateTo({
+          url: '/pages/index/index'
+        })
+     }
+  },
   bindGetUserInfo: function (e) {
                
                     wx.getUserInfo({
