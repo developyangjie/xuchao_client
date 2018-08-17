@@ -11,7 +11,7 @@ App({
     if(!openId || !userInfo){
        wx.login({
           success:function(res_user){
-            wx.showLoading({title:'加载中......'})
+             wx.showLoading({title:'加载中......'})
 
             wx.request({
                url:config.loginHost,
